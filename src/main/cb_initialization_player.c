@@ -14,8 +14,8 @@
 
 void	initialization_player(t_data *d)
 {
-	d->player.x = d->cub->p_x + 0.5;
-	d->player.y = d->cub->p_y + 0.5;
+	d->player.x = d->cub->p_x + 0.05;
+	d->player.y = d->cub->p_y + 0.05;
 	if (d->cub->p_or == 'E')
 		d->player.dir = 0.0;
 	else if (d->cub->p_or == 'N')
@@ -28,7 +28,7 @@ void	initialization_player(t_data *d)
 	{
 		d->player.dir = 0.0;
 	}
-	d->player.speed = 0.055;
-	d->player.rot_speed = 0.055;
+	d->player.speed = 0.03;
+	d->player.rot_speed = 0.03;
 	d->player.radius = 0.05;
 }

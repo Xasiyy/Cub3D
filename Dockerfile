@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libx11-dev \
     libxext-dev \
     libreadline-dev \
+    libbsd-dev \
     xvfb \
     x11vnc \
     novnc \

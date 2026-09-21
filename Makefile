@@ -7,7 +7,7 @@ MAKEFLAGS	+= --no-print-directory
 NAME		=	cub3D
 
 CC			=	cc
-CFLAGS		=	-Wall -Wextra -Werror -g3 -I${INC} #-fsanitize=address
+CFLAGS		=	-Wall -Wextra -Werror -g3 -I${INC} -std=gnu99 #-fsanitize=address
 
 OBJ_DIR		=	obj
 SRC_DIR		=	src/main/ \
